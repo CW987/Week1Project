@@ -1,105 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- <link rel="stylesheet" href="./minireset.css" /> -->
-    <!-- Does the reset but the "fancy" way. As a seperate sheet it doesn't clutter my other, running it first will do the reset. Some nice person at MIT made the file, put it on github, Manny referenced it. Then the penny dropped on how to use it. It was a bit of a block even though I know I can have as many css sheets as I want -->
+    <!-- Does the reset but the "fancy" way. As a seperate sheet it doesn't clutter my other, running it first will do the reset. Some nice person at MIT made the file, put it on github, Manny referenced it. Then the penny dropped on how to use it. It was a bit of a block even though I know I can have as many css sheets as I want. I didn't factor this into my own css so it meant even more style errors -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
     <!-- my actual stylesheet -->
     <title>We made it to 10 years!</title>
-</head>
+  </head>
 
-<header>
+  <header>
     <h1>We made it to 10 years!!</h1>
     <h2>Where to?</h2>
     <nav>
-
-    <a href="#Benelux">Benelux</a>
-    <a href="#France">France</a>
-    <a href="#Germany">Germany</a>
-    <a href="#Italy">Italy</a>
+      <a href="#Benelux">Benelux</a>
+      <a href="#France">France</a>
+      <a href="#Germany">Germany</a>
+      <a href="#Italy">Italy</a>
     </nav>
-</header>
-<body>
+  </header>
+  <body>
+    <div class="Destination" id="Home">
+      <p class="HiddenIMG">
+        The background image is the happy couple cutting the wedding cake
+      </p>
+    </div>
 
-<div class="Destination" id="Home">
+    <div class="Destination" id="France">
+      <h3>France - Alsace</h3>
+      <h4>5 hours from London - Change at Lille</h4>
+      <p class="HiddenIMG">
+        The background image is of a town riverside in Colmar - Alsace
+      </p>
+      <p class="TextBox">
+        La Grande Est, a picturesque region in northeastern France, offers a
+        delightful blend of natural beauty, rich history, and cultural charm. As
+        you travel through its verdant landscapes, you'll encounter rolling
+        vineyards of the Champagne region, the misty Vosges mountains, and the
+        Rhine River winding along the German border. The region's history comes
+        alive in Strasbourg, home to the majestic Gothic Cathédrale Notre-Dame
+        and the charming half-timbered houses of La Petite France. In Reims, the
+        Cathedral of Notre-Dame stands as a beacon of French coronation history,
+        while the Alsace Wine Route takes you through idyllic villages like
+        Riquewihr and Eguisheim, famed for their colorful facades and
+        cobblestone streets. Whether savoring a glass of champagne or marveling
+        at medieval fortresses, La Grande Est is a feast for the senses. <br />
+        <a
+          href="https://www.seat61.com/France.htm#london-to-strasbourg-by-train"
+          >Travel info to Strasbourg</a
+        >
+      </p>
+    </div>
 
-    
-    <p class="HiddenIMG">The background image is the happy couple cutting the wedding cake</p>
-</div>
+    <div class="Destination" id="Germany">
+      <h3>Germany</h3>
+      <h4>3 hours from Paris - Gare de l'Est</h4>
+      <p class="HiddenIMG">
+        The background image is of a large white castle with the Bavarian Alps
+        behind it
+      </p>
+      <p class="TextBox">
+        The Bavarian Alps and Munich offer a captivating journey through
+        breathtaking landscapes, rich history, and vibrant culture. As you
+        approach the Alps, you'll be awed by snow-capped peaks, crystal-clear
+        lakes like Königssee, and storybook castles such as Neuschwanstein,
+        which inspired Disney's fairy-tale designs. Munich, Bavaria’s lively
+        capital, combines modern sophistication with historic charm—don’t miss
+        the iconic Marienplatz with its ornate Glockenspiel or the vast
+        Englischer Garten. History buffs can explore the imposing Nymphenburg
+        Palace and the poignant Dachau Memorial Site. Beyond the city, charming
+        towns like Garmisch-Partenkirchen offer access to alpine trails, while
+        beer lovers can indulge in Bavaria's famed brews at traditional beer
+        halls. This region is a treasure trove for nature lovers, history
+        enthusiasts, and culture seekers alike. <br />
+        <a
+          href="https://www.seat61.com/Germany.htm#london-to-stuttgart-and-munich-by-train"
+          >Travel info to Munich</a
+        >
+      </p>
+    </div>
 
-<div class="Destination" id="France">
-    <h3>France - Alsace</h3>
-    <h4>5 hours from London - Change at Lille</h4>
-    <p class="HiddenIMG">The background image is of a town riverside in Colmar - Alsace</p>
-    <p class="TextBox">La Grande Est, a picturesque region in northeastern France, offers a
-    delightful blend of natural beauty, rich history, and cultural charm. As
-    you travel through its verdant landscapes, you'll encounter rolling
-    vineyards of the Champagne region, the misty Vosges mountains, and the
-    Rhine River winding along the German border. The region's history comes
-    alive in Strasbourg, home to the majestic Gothic Cathédrale Notre-Dame and
-    the charming half-timbered houses of La Petite France. In Reims, the
-    Cathedral of Notre-Dame stands as a beacon of French coronation history,
-    while the Alsace Wine Route takes you through idyllic villages like
-    Riquewihr and Eguisheim, famed for their colorful facades and cobblestone
-    streets. Whether savoring a glass of champagne or marveling at medieval
-    fortresses, La Grande Est is a feast for the senses. <br>
-    <a href="https://www.seat61.com/France.htm#london-to-strasbourg-by-train" >Travel info to Strasbourg</a>
-    </p>
-</div>
-
-<div class="Destination" id="Germany">
-    <h3>Germany</h3>
-    <h4>3 hours from Paris - Gare de l'Est</h4>
-    <p class="HiddenIMG">The background image is of a large white castle with the Bavarian Alps behind it</p>
-    <p class="TextBox">The Bavarian Alps and Munich offer a captivating journey through
-    breathtaking landscapes, rich history, and vibrant culture. As you
-    approach the Alps, you'll be awed by snow-capped peaks, crystal-clear
-    lakes like Königssee, and storybook castles such as Neuschwanstein, which
-    inspired Disney's fairy-tale designs. Munich, Bavaria’s lively capital,
-    combines modern sophistication with historic charm—don’t miss the iconic
-    Marienplatz with its ornate Glockenspiel or the vast Englischer Garten.
-    History buffs can explore the imposing Nymphenburg Palace and the poignant
-    Dachau Memorial Site. Beyond the city, charming towns like
-    Garmisch-Partenkirchen offer access to alpine trails, while beer lovers
-    can indulge in Bavaria's famed brews at traditional beer halls. This
-    region is a treasure trove for nature lovers, history enthusiasts, and
-    culture seekers alike. <br>
-    <a href="https://www.seat61.com/Germany.htm#london-to-stuttgart-and-munich-by-train" >Travel info to Munich</a>
-    </p>
-</div>
-
-<div class="Destination" id="Italy">
-    <h3>Italy</h3>
-    <h4>6.5 hours from Paris - Gare de Lyon **Fast route may be blocked - Scenic via Switzerland might be better - or the Bernina Express for a treat</h4>
-    <p class="HiddenIMG">The background image is of the Turin skyline</p>
-    <div class="TextBox">
-    <p>Northwest Italy is a treasure trove of diverse landscapes, cultural gems, and indulgent experiences. Begin in the elegant city of Turin, the capital
-    of Piedmont, known for its Baroque architecture, rich chocolate, and the
-    iconic Mole Antonelliana. Explore the Langhe region, where rolling hills
-    are blanketed with vineyards producing world-class Barolo and Barbaresco
-    wines. Mantua, a Renaissance jewel in Lombardy, enchants with its grand
-    Palazzo Ducale and lakeside charm. For relaxation, head to the thermal spa
-    town of Acqui Terme, where healing waters have been enjoyed since Roman
-    times. Don’t miss the enchanting Italian Riviera, with colorful coastal
-    villages like Portofino and the chic city of Genoa, steeped in maritime
-    history. Northwest Italy is a perfect blend of relaxation, culture, and
-    breathtaking scenery.</p>
-    <h5>Travel the long way to Italy</h5>
-    <p>Traveling to Turin or Milan from London is a scenic journey that can take
-    several routes. You can start with the Eurostar to Paris, then switch to a
-    high-speed TGV to either city, with Milan reached in just over 7 hours 30
-    minutes and Turin in 6 hours 30 minutes. Alternatively, for a longer, more
-    picturesque option, you can take the Eurostar to Paris, connect with a TGV
-    to Zurich, and then change onto a scenic train through the Swiss Alps,
-    passing through the tiny, picturesque country of Liechtenstein before
-    arriving in Milan or Turin. This route offers stunning views of the Alps
-    and the opportunity to explore charming Swiss towns along the way.</p>
-    <a href="https://www.seat61.com/Italy.htm#london-to-milan-venice-florence-rome-naples">Travel info to Turin</a>
-    <a href="https://www.seat61.com/trains-and-routes/bernina-express.htm">Bernina Express</a>
-</div>
-<!-- 
+    <div class="Destination" id="Italy">
+      <h3>Italy</h3>
+      <h4>
+        6.5 hours from Paris - Gare de Lyon **Fast route may be blocked - Scenic
+        via Switzerland might be better - or the Bernina Express for a treat
+      </h4>
+      <p class="HiddenIMG">The background image is of the Turin skyline</p>
+      <div class="TextBox">
+        <p>
+          Northwest Italy is a treasure trove of diverse landscapes, cultural
+          gems, and indulgent experiences. Begin in the elegant city of Turin,
+          the capital of Piedmont, known for its Baroque architecture, rich
+          chocolate, and the iconic Mole Antonelliana. Explore the Langhe
+          region, where rolling hills are blanketed with vineyards producing
+          world-class Barolo and Barbaresco wines. Mantua, a Renaissance jewel
+          in Lombardy, enchants with its grand Palazzo Ducale and lakeside
+          charm. For relaxation, head to the thermal spa town of Acqui Terme,
+          where healing waters have been enjoyed since Roman times. Don’t miss
+          the enchanting Italian Riviera, with colorful coastal villages like
+          Portofino and the chic city of Genoa, steeped in maritime history.
+          Northwest Italy is a perfect blend of relaxation, culture, and
+          breathtaking scenery.
+        </p>
+        <h5>Travel the long way to Italy</h5>
+        <p>
+          Traveling to Turin or Milan from London is a scenic journey that can
+          take several routes. You can start with the Eurostar to Paris, then
+          switch to a high-speed TGV to either city, with Milan reached in just
+          over 7 hours 30 minutes and Turin in 6 hours 30 minutes.
+          Alternatively, for a longer, more picturesque option, you can take the
+          Eurostar to Paris, connect with a TGV to Zurich, and then change onto
+          a scenic train through the Swiss Alps, passing through the tiny,
+          picturesque country of Liechtenstein before arriving in Milan or
+          Turin. This route offers stunning views of the Alps and the
+          opportunity to explore charming Swiss towns along the way.
+        </p>
+        <a
+          href="https://www.seat61.com/Italy.htm#london-to-milan-venice-florence-rome-naples"
+          >Travel info to Turin</a
+        >
+        <a href="https://www.seat61.com/trains-and-routes/bernina-express.htm"
+          >Bernina Express</a
+        >
+      </div>
+      <!-- 
 <div class="Destination" id="Benelux">
     <h3>Benelux</h3>
     <h4>2 hours from London</h4>
@@ -120,9 +146,15 @@
     </p>
     <a href="https://www.seat61.com/Belgium.htm">Travel info to Belgium</a>
 </div> -->
-
-</div>
-
-</body>
-<footer>Curtis - WK 1 Project</footer>
+    </div>
+    <button class="back-to-top" onclick="scrollToTop()">
+      ↑ Back to the top
+    </button>
+    <script>
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
+  <footer>Curtis - WK 1 Project</footer>
 </html>
