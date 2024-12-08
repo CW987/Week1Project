@@ -1,0 +1,67 @@
+* {
+    font-family: baskerville;
+    background-color: slategray;
+}
+
+.Destination {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  justify-content: flex-end;
+  text-align: center;
+}
+.Destination h3, .Destination h4 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    z-index: 10;
+    padding: 5px;
+}
+#Home {
+  background-image: url(./MatthewCurtis_BeaumanorHallWedding-438.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#France {
+  background-image: url(./Alsace.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#Germany {
+  background-image: url(./Germany.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#Italy {
+  background-image: url(./Turin.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#Benelux {
+  background-image: url(./Luxembourg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.TextBox {
+  background-color: #00000080;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  max-width: 75%;
+  text-align: center;
+}
+.HiddenIMG {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0%;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
